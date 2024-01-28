@@ -1,0 +1,4 @@
+export const config: jwtModuleOptions = {
+      secret: 'doNotShareThisWithAnyone',
+      signOptions: { expiresIn: '1d' },
+    }
